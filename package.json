@@ -1,0 +1,55 @@
+{
+	"name": "gitversionview",
+	"displayName": "GitVersion View",
+	"description": "Display the actual git version of the current branch.",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.30.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"*",
+		"onCommand:extension.gitVersionView"
+	],
+	"contributes": {
+		"configuration": {
+			"type": "object",
+			"title": "GitVersion View",
+			"properties": {
+				"gitVersionView.versionFormat": {
+					"type": "string",
+					"default": "SemVer",
+					"description": "Specify the version format. Example: InformationalVersion, SemVer, MajorMinorPatch..."
+				}
+			}
+		},
+		"commands": {
+			"command": "extension.gitVersionView",
+			"title": "Show GitVersion"
+		}
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://dev.azure.com/hsse/_git/GitVersionView"
+	},
+	"main": "./out/extension.js",
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "npm run compile && node ./node_modules/vscode/bin/test"
+	},
+	"devDependencies": {
+		"typescript": "^3.1.4",
+		"vscode": "^1.1.25",
+		"tslint": "^5.8.0",
+		"@types/node": "^8.10.25",
+		"@types/mocha": "^2.2.42"
+	},
+	"dependencies": {
+		"rebuild": "^0.1.2"
+	}
+}

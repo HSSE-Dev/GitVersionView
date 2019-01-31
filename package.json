@@ -10,25 +10,31 @@
 		"Other"
 	],
 	"activationEvents": [
-		"*",
-		"onCommand:extension.gitVersionView"
+		"*"
+	],
+	"extensionDependencies": [
+		"vscode.git"
 	],
 	"contributes": {
-		"configuration": {
-			"type": "object",
-			"title": "GitVersion View",
-			"properties": {
-				"gitVersionView.versionFormat": {
-					"type": "string",
-					"default": "SemVer",
-					"description": "Specify the version format. Example: InformationalVersion, SemVer, MajorMinorPatch..."
+		"configuration": [
+			{
+				"type": "object",
+				"title": "GitVersion View",
+				"properties": {
+					"gitVersionView.versionFormat": {
+						"type": "string",
+						"default": "SemVer",
+						"description": "Specify the version format. Example: InformationalVersion, SemVer, MajorMinorPatch..."
+					}
 				}
 			}
-		},
-		"commands": {
-			"command": "extension.gitVersionView",
-			"title": "Show GitVersion"
-		}
+		],
+		"commands": [
+			{
+				"command": "extension.gitVersionView",
+				"title": "Show GitVersion"
+			}
+		]
 	},
 	"repository": {
 		"type": "git",
@@ -50,6 +56,7 @@
 		"@types/mocha": "^2.2.42"
 	},
 	"dependencies": {
+		"git-repo-info": "^2.1.0",
 		"rebuild": "^0.1.2"
 	}
 }

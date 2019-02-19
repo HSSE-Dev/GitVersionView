@@ -25,8 +25,14 @@ This extension contributes the following settings:
 The extension is just recently published, so their are some open questions and many possibilities to improve or to extend the extension.
 If you have issues, bugs, suggestions, questions or other ambuitions contact me.
 
+- The version number is always displayed in a Git Repository, you have to be disable it for a Git repository which is not using GitVersion
+
+## For more information
 * [GitHub Issues](https://github.com/HSSE-Dev/GitVersionView/issues)
 * [Email]([https://github.com/HSSE-Dev/GitVersionView/issues](HSSE-Development@outlook.com))
+
+**Enjoy!**
+-----------------------------------------------------------------------------------------------------------
 
 ## Release Notes
 
@@ -34,12 +40,8 @@ If you have issues, bugs, suggestions, questions or other ambuitions contact me.
 
 - Initial release of GitVersion View
 
------------------------------------------------------------------------------------------------------------
-
 ### For more information
 
 * [GitHub Repository](https://github.com/HSSE-Dev/GitVersionView)
 * [Link to Microsoft Marketplace](https://help.github.com/articles/markdown-basics/)
-* Contact HSSE-Development@outlook.com
-
-**Enjoy!**
+* Contact: HSSE-Development@outlook.com

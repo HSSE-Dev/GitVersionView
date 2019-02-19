@@ -1,7 +1,9 @@
 # GitVersion View README
 
-GitVersion View displays the current GitVersion of the repository and the checked out branch.
-It requires an locally installed GitVersion on your machine that could be executed.
+GitVersion View displays the current GitVersion of the repository and the checked out branch. So you have the actually dev state  always  in view.
+
+### Important
+- This extension do not edit actively the version. It only is a passiv information.
 
 ## Features
 
@@ -9,40 +11,35 @@ The extension automatically start if you open a project with git SourceControl
 
 ## Requirements
 
-Install GitVersion on your system.
-[Install GitVersion CommandLine Tool](https://gitversion.readthedocs.io/en/latest/usage/command-line/)
+Install GitVersion on your system - see here
+[Install GitVersion CMD Tool](https://gitversion.readthedocs.io/en/latest/usage/command-line/)
 
-## Extension Settings 
+## Extension Settings
 
 This extension contributes the following settings:
 
-* `gitVersionView.versionFormat`: specifies the output format for the version variable [GitVersion Variables](https://gitversion.readthedocs.io/en/latest/more-info/variables/)
+* `gitVersionView.versionFormat`: specify the output format for the [GitVersion Variables](https://gitversion.readthedocs.io/en/latest/more-info/variables/)
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+The extension is just recently published, so their are some open questions and many possibilities to improve or to extend the extension.
+If you have issues, bugs, suggestions, questions or other ambuitions contact me.
+
+* [GitHub Issues](https://github.com/HSSE-Dev/GitVersionView/issues)
+* [Email]([https://github.com/HSSE-Dev/GitVersionView/issues](HSSE-Development@outlook.com))
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
+### 0.1.1
 
-### 0.0.1
-
-Initial release of ...
+- Initial release of GitVersion View
 
 -----------------------------------------------------------------------------------------------------------
 
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
 ### For more information
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+* [GitHub Repository](https://github.com/HSSE-Dev/GitVersionView)
+* [Link to Microsoft Marketplace](https://help.github.com/articles/markdown-basics/)
+* Contact HSSE-Development@outlook.com
 
 **Enjoy!**

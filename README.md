@@ -29,7 +29,9 @@ If you have issues, bugs, suggestions, questions or other ambuitions contact me.
 
 ## For more information
 * [GitHub Issues](https://github.com/HSSE-Dev/GitVersionView/issues)
-* [Email]([https://github.com/HSSE-Dev/GitVersionView/issues](HSSE-Development@outlook.com))
+* [Email](HSSE-Development@outlook.com)
+* [Link to Microsoft Marketplace](https://help.github.com/articles/markdown-basics/)
+* [Slack](https://join.slack.com/t/hsse-dev/shared_invite/enQtNTU0NzgxOTk4ODUwLTMzMDA4ZjQ4NDczZjlkNjY3ODhkNmZjZWIyMzk0NGJkOGIwMmIyYTc2Yzk4M2U0YzAwNmM0NjAzNTUwNGEzNTU)
 
 **Enjoy!**
 -----------------------------------------------------------------------------------------------------------
@@ -39,9 +41,3 @@ If you have issues, bugs, suggestions, questions or other ambuitions contact me.
 ### 0.1.1
 
 - Initial release of GitVersion View
-
-### For more information
-
-* [GitHub Repository](https://github.com/HSSE-Dev/GitVersionView)
-* [Link to Microsoft Marketplace](https://help.github.com/articles/markdown-basics/)
-* Contact: HSSE-Development@outlook.com

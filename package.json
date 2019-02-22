@@ -22,7 +22,6 @@
 	],
 	"icon": "images/package_icon.png",
 	"galleryBanner": {
-		"color": "#C80000",
 		"theme": "dark"
 	},
 	"activationEvents": [

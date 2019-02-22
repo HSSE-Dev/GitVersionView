@@ -22,7 +22,7 @@ export class GitVersionController {
 		this.ConnectToGit();
 		if (this.repo) {
 			this.gitVersionView.updateStatusBarWithPath(this.GitPath).then((infoText) => {
-				window.showInformationMessage(infoText, )
+			//	window.showInformationMessage(infoText, )
 			});
 		}
 	}
@@ -72,7 +72,7 @@ export class GitVersionController {
 
 		if (this.repo) {
 			this.gitVersionView.updateStatusBarWithPath(this.GitPath).then((infoText) => {
-				window.showInformationMessage(infoText);
+		//		window.showInformationMessage(infoText);
 			});
 		} else {
 			console.log("Repo null");

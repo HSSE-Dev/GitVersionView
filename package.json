@@ -2,11 +2,18 @@
 	"name": "gitversionview",
 	"displayName": "GitVersion View",
 	"description": "Display the actual git version of the current branch.",
-	"version": "0.1.2",
+	"version": "0.1.3",
 	"publisher": "HSSE-Development",
 	"engines": {
 		"vscode": "^1.30.0"
 	},
+	"keywords": [
+		"git",
+		"GitVersion",
+		"Version",
+		"Versioning",
+		"Branch"
+	],
 	"license": "See in LICENSE",
 	"homepage": "https://github.com/HSSE-Dev/GitVersionView",
 	"bugs": {

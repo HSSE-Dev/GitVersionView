@@ -38,6 +38,9 @@ If you have issues, bugs, suggestions, questions or other ambuitions contact me.
 
 ## Release Notes
 
+## 0.1.3
+- added Keywords/Tag for marketplace
+
 ### 0.1.2
 - fix marketplace banner
 

@@ -17,3 +17,7 @@ All notable changes to the "gitversionview" extension will be documented in this
 ## 0.1.2 - 2019.02-22
 ### fix
 - fix marketplace banner
+
+## 0.1.3 - 2019.02-22
+### Added
+- Keywords/Tag for marketplace

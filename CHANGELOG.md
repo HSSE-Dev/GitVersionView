@@ -1,7 +1,11 @@
 # Change Log
 All notable changes to the "gitversionview" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
 ## [Unreleased]
-- Initial release
+- their are a bunch of features which are imaginable
+- contact me for new requirements
+
+
+## 0.1.1 - 2019-02-19
+### Added
+- Initial release of GitVersion View

@@ -40,4 +40,9 @@ If you have issues, bugs, suggestions, questions or other ambuitions contact me.
 
 ### 0.1.1
 
+- disable popup message on start and repo change
+
+
+### 0.1.0
+
 - Initial release of GitVersion View

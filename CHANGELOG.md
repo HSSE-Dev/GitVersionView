@@ -13,3 +13,7 @@ All notable changes to the "gitversionview" extension will be documented in this
 ## 0.1.1 - 2019.02-22
 ### Changed
 - disable popup message with the version on each start or repo change
+
+## 0.1.2 - 2019.02-22
+### fix
+- fix marketplace banner

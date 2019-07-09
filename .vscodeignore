@@ -1,6 +1,7 @@
 .vscode/**
 .vscode-test/**
 out/test/**
+images/presentation.gif
 src/**
 .gitignore
 vsc-extension-quickstart.md

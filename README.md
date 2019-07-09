@@ -1,6 +1,6 @@
 # GitVersion View README
 
-![alt text](images/presentation.gif)
+![alt text](https://raw.githubusercontent.com/HSSE-Dev/GitVersionView/master/images/presentation.gif)
 
 GitVersion View displays the current version of the checked out branch in the status bar. The display format can be customized to your needs.</br>
 Unfortunately it is still necessary that GitVersion is installed locally, because the extension accesses it, see [here](#Requirements). </br>

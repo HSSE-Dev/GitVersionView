@@ -211,8 +211,8 @@ class GitVersionView {
 	}
 
 	private refreshStatusBar(version: string) {
-		this.statusBarItemText = `$(info) GitVersion:  ${version} `;
-		this.infoMessageText = `GitVersion:  ${version} `;
+		this.statusBarItemText = `$(info) GitVersion:  ${version}`;
+		this.infoMessageText = `GitVersion:  ${version}`;
 		this.statusBarItem.text = this.statusBarItemText;
 		this.statusBarItem.show();
 	}

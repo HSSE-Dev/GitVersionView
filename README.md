@@ -4,7 +4,7 @@
 
 GitVersion View displays the current version of the checked out branch in the status bar. The display format can be customized to your needs.</br>
 Unfortunately it is still necessary that GitVersion is installed locally, because the extension accesses it, see [here](#Requirements). </br>
-With the recently released VSCode 1.36 you can show and hide status bar items as you like, see [here](https://code.visualstudio.com/updates/v1_36).</br>
+Since VSCode 1.36 you can show and hide status bar items as you like, see [here](https://code.visualstudio.com/updates/v1_36).</br>
 __Enjoy!__
 
 ## Requirements
@@ -27,6 +27,10 @@ Supported: "SemVer", "MajorMinorPatch", "InformationalVersion"
 -----------------------------------------------------------------------------------------------------------
 
 ## Release Notes
+
+## 0.1.5
+- Fix display bug, thanks to __wardy3__
+- Update NPM Dependencies to prevent vulnerabilities
 
 ## 0.1.4
 - Update NPM Dependencies to prevent vulnerabilities

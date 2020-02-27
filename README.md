@@ -10,13 +10,13 @@ __Enjoy!__
 ## Requirements
 
 Install GitVersion on your system - see here
-[Install GitVersion CMD Tool](https://gitversion.readthedocs.io/en/latest/usage/command-line/)
+[Install GitVersion CMD Tool](https://gitversion.net/docs/usage/command-line)
 
 ## Extension Settings
 
 This extension contributes the following settings:
 
-* `gitVersionView.versionFormat`: specify the output format [GitVersion Variables](https://gitversion.readthedocs.io/en/latest/more-info/variables/)<br/> 
+* `gitVersionView.versionFormat`: specify the output format [GitVersion Variables](https://gitversion.net/docs/more-info/variables)<br/> 
 Supported: "SemVer", "MajorMinorPatch", "InformationalVersion"
 
 ## For more information
@@ -28,9 +28,13 @@ Supported: "SemVer", "MajorMinorPatch", "InformationalVersion"
 
 ## Release Notes
 
+## 0.1.6
+- Update links to GitVersion WebSite
+- Update NPM Dependencies 
+
 ## 0.1.5
 - Fix display bug, thanks to __wardy3__
-- Update NPM Dependencies to prevent vulnerabilities
+- Update NPM Dependencies 
 
 ## 0.1.4
 - Update NPM Dependencies to prevent vulnerabilities

@@ -22,3 +22,13 @@ All notable changes to the "gitversionview" extension will be documented in this
 - Update NPM Dependencies to prevent vulnerabilities
 - Update README text
 - add GIF to README
+
+## 0.1.5 - 2020-02-11
+### Fix
+- Fix display bug, thanks to __wardy3__
+- Update NPM Dependencies 
+
+## 0.1.6 - 2020-02-27
+### Fix
+- Links to GitVersion in ReadMe
+- Update NPM Dependencies 

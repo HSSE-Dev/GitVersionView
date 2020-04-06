@@ -28,6 +28,9 @@ Supported: "SemVer", "MajorMinorPatch", "InformationalVersion"
 
 ## Release Notes
 
+## 0.1.8
+- 0.1.7 VSIX package was published with wrong sources - my bad ;-)
+
 ## 0.1.7
 - Fix bug: usage of spaces in git directory (Issue #6)
 - Update NPM Dependencies 
@@ -49,11 +52,11 @@ Supported: "SemVer", "MajorMinorPatch", "InformationalVersion"
 ## 0.1.3
 - added Keywords/Tag for marketplace
 
-### 0.1.2
+## 0.1.2
 - fix marketplace banner
 
-### 0.1.1
+## 0.1.1
 - disable popup message on start and repo change
 
-### 0.1.0
+## 0.1.0
 - Initial release of GitVersion View

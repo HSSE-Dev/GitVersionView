@@ -38,3 +38,7 @@ All notable changes to the "gitversionview" extension will be documented in this
 - Fix bug: usage of spaces in git directory (Issue #6)
 - Update NPM Dependencies 
 - Remove unused code
+
+## 0.1.8 - 2020-04-06
+### Fix
+- 0.1.7 VSIX package was published with wrong sources - my bad ;-)

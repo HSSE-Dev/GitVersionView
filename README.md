@@ -28,6 +28,11 @@ Supported: "SemVer", "MajorMinorPatch", "InformationalVersion"
 
 ## Release Notes
 
+## 0.1.7
+- Fix bug: usage of spaces in git directory (Issue #6)
+- Update NPM Dependencies 
+- Remove unused code
+
 ## 0.1.6
 - Update links to GitVersion WebSite
 - Update NPM Dependencies 

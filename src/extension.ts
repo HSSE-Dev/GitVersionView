@@ -22,7 +22,7 @@ export class GitVersionController {
 		this.ConnectToGit();
 		if (this.repo) {
 			this.gitVersionView.updateStatusBarWithPath(this.GitPath).then((infoText) => {
-			//	window.showInformationMessage(infoText, )
+				//	window.showInformationMessage(infoText, )
 			});
 		}
 	}
@@ -72,7 +72,7 @@ export class GitVersionController {
 
 		if (this.repo) {
 			this.gitVersionView.updateStatusBarWithPath(this.GitPath).then((infoText) => {
-		//		window.showInformationMessage(infoText);
+				//		window.showInformationMessage(infoText);
 			});
 		} else {
 			console.log("Repo null");
@@ -159,8 +159,7 @@ class GitVersionView {
 	}
 
 	public dispose() {
-		if(this.statusBarItem)
-		{
+		if (this.statusBarItem) {
 			this.statusBarItem.dispose();
 		}
 	}
@@ -218,8 +217,9 @@ class GitVersionView {
 	}
 
 	private async callGitVersion(): Promise<promiseResponse> {
+		
+		var executeCommand = `gitversion "${this.rootFolderPath}" -output json -showvariable ${this.versionFormat}`;
 
-		var executeCommand = 'gitversion ' + this.rootFolderPath + ' -output json -showvariable ' + this.versionFormat;
 		let responseString = await asyncExec(executeCommand).then((stdout: string) => {
 			console.log(stdout);
 			return { stdout: stdout, stderr: undefined };

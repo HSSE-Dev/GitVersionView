@@ -14,7 +14,7 @@
 		"Versioning",
 		"Branch"
 	],
-	"license": "See in LICENSE",
+	"license": "MIT",
 	"homepage": "https://github.com/HSSE-Dev/GitVersionView",
 	"bugs": {
 		"url": "https://github.com/HSSE-Dev/GitVersionView/issues",
@@ -60,14 +60,12 @@
 		"vscode:prepublish": "npm run compile",
 		"compile": "tsc -p ./",
 		"watch": "tsc -watch -p ./",
-		"postinstall": "node ./node_modules/vscode/bin/install",
-		"test": "npm run compile && node ./node_modules/vscode/bin/test"
+		"postinstall": "node ./node_modules/vscode/bin/install"
 	},
 	"devDependencies": {
-		"@types/mocha": "^2.2.42",
-		"@types/node": "^8.10.59",
-		"tslint": "^5.20.1",
-		"typescript": "^3.8.2",
+		"@types/node": "^13.11.0",
+		"tslint": "^6.1.1",
+		"typescript": "^3.8.3",
 		"vscode": "^1.1.36"
 	},
 	"dependencies": {

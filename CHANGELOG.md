@@ -32,3 +32,9 @@ All notable changes to the "gitversionview" extension will be documented in this
 ### Fix
 - Links to GitVersion in ReadMe
 - Update NPM Dependencies 
+
+## 0.1.7 - 2020-04-06
+### Fix
+- Fix bug: usage of spaces in git directory (Issue #6)
+- Update NPM Dependencies 
+- Remove unused code

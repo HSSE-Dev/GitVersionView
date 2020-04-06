@@ -2,7 +2,7 @@
 	"name": "gitversionview",
 	"displayName": "GitVersion View",
 	"description": "Display the actual git version of the current branch.",
-	"version": "0.1.6",
+	"version": "0.1.7",
 	"publisher": "HSSE-Development",
 	"engines": {
 		"vscode": "^1.30.0"

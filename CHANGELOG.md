@@ -42,3 +42,7 @@ All notable changes to the "gitversionview" extension will be documented in this
 ## 0.1.8 - 2020-04-06
 ### Fix
 - 0.1.7 VSIX package was published with wrong sources - my bad ;-)
+
+## 0.1.9 - 2022-12-29
+### Added
+- Option to change the command of gitversion (e.g. "dotnet-gitversion" instead of "gitversion")
